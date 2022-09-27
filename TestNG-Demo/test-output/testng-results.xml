@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-27T12:51:23 IST" name="Suite" finished-at="2022-09-27T12:51:23 IST" duration-ms="127">
+    <groups>
+      <group name="Smoke">
+        <method signature="CarLoanApplicationTests.CarLoanLoginMobile()[pri:0, instance:loanapplications.CarLoanApplicationTests@272ed83b]" name="CarLoanLoginMobile" class="loanapplications.CarLoanApplicationTests"/>
+        <method signature="HomeLoanApplicationTests.HomeLoanLoginAPI()[pri:0, instance:loanapplications.HomeLoanApplicationTests@a3d8174]" name="HomeLoanLoginAPI" class="loanapplications.HomeLoanApplicationTests"/>
+        <method signature="PersonalLoanApplicationTests.PersonalLoanLoginWeb()[pri:0, instance:loanapplications.PersonalLoanApplicationTests@3972a855]" name="PersonalLoanLoginWeb" class="loanapplications.PersonalLoanApplicationTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-09-27T12:51:23 IST" name="SmokeTests" finished-at="2022-09-27T12:51:23 IST" duration-ms="127">
+      <class name="loanapplications.CarLoanApplicationTests">
+        <test-method signature="CarLoanLoginMobile()[pri:0, instance:loanapplications.CarLoanApplicationTests@272ed83b]" started-at="2022-09-27T12:51:23 IST" name="CarLoanLoginMobile" finished-at="2022-09-27T12:51:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLoginMobile -->
+      </class> <!-- loanapplications.CarLoanApplicationTests -->
+      <class name="loanapplications.HomeLoanApplicationTests">
+        <test-method signature="HomeLoanLoginAPI()[pri:0, instance:loanapplications.HomeLoanApplicationTests@a3d8174]" started-at="2022-09-27T12:51:23 IST" name="HomeLoanLoginAPI" finished-at="2022-09-27T12:51:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanLoginAPI -->
+      </class> <!-- loanapplications.HomeLoanApplicationTests -->
+      <class name="loanapplications.PersonalLoanApplicationTests">
+        <test-method signature="PersonalLoanLoginWeb()[pri:0, instance:loanapplications.PersonalLoanApplicationTests@3972a855]" started-at="2022-09-27T12:51:23 IST" name="PersonalLoanLoginWeb" finished-at="2022-09-27T12:51:23 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanLoginWeb -->
+      </class> <!-- loanapplications.PersonalLoanApplicationTests -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- Suite -->
+</testng-results>
