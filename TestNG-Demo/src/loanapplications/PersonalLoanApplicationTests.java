@@ -1,12 +1,16 @@
 package loanapplications;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class PersonalLoanApplicationTests {
 	
-	@Test(groups= {"Smoke"})
-	public void PersonalLoanLoginWeb() {
-		System.out.println("Personal Loan Application - Web Login Test");
+//	Passing Parameter Through XML
+	@Parameters({"URL"})
+	@Test()
+	public void PersonalLoanLoginWeb(String url) {
+		System.out.println("Personal loan application - web login test");
+		System.out.println("Weg login url= " + url);
 	}
 	
 	@Test
